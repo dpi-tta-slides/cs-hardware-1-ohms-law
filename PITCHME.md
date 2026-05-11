@@ -21,6 +21,19 @@ By the end of today you will:
 
 ---
 
+# Today's Workflow
+
+## Step 1
+Build a circuit virtually in Tinkercad
+
+## Step 2
+Build the same circuit physically on a breadboard
+
+## Step 3
+Measure and analyze the circuit
+
+---
+
 # Live Demo
 
 ## What are we building today?
@@ -35,33 +48,24 @@ By the end of today you will:
 
 ![bg contain right](assets/resistor-led-circuit.png)
 
----
-
-# Today's Workflow
-
-## Step 1
-Build the circuit virtually in Tinkercad
-
-## Step 2
-Build the same circuit physically on a breadboard
-
-## Step 3
-Measure and analyze the circuit
+<!-- TODO: move to a breadboard? -->
 
 ---
 
 # Why Start with Tinkercad?
 
 Advantages:
-- easier wiring
+- easier wiring + troubleshooting
 - instant feedback
 - safer experimentation
-- easier troubleshooting
 - no damaged components
 
-We can focus on *understanding the circuit first*
+Disadvantages:
+- Simulations are sometimes inaccurate
 
----
+<!-- We can focus on *understanding the circuit first* -->
+
+--- 
 
 # Electronics Is About Control
 
@@ -75,26 +79,16 @@ We use electronics to control:
 
 ---
 
-# Learning by Discovery
-
-## Expect mistakes
+# Expect mistakes
 
 Your circuit may:
 - not work
 - work partially
 - behave strangely
 
-That is normal.
-
----
-
-# Important Mindset
-
 Professional engineers spend huge amounts of time debugging.
 
-If your circuit does not work immediately:
-
-**THAT IS NORMAL**
+If your circuit does not work immediately **THAT IS NORMAL**
 
 ---
 
@@ -130,6 +124,7 @@ LED →
 Battery negative
 
 <!-- TODO: insert Tinkercad screenshot -->
+<!-- Breadboard? -->
 
 ---
 
@@ -282,7 +277,7 @@ This is called *polarity*
 LED:
 - Light Emitting Diode
 
-LEDs only work in one direction.
+Diodes only allow current in one direction.
 
 - Long leg = positive (+) anode
 - Short leg = negative (-) cathode
@@ -347,6 +342,9 @@ Using:
 - battery
 - jumper wires
 
+<!-- 
+
+TODO: introduce breadboards in tinkercad first
 ---
 
 # Breadboard
@@ -363,7 +361,8 @@ Using:
 
 ## Rows are electrically connected
 
-<!-- TODO: Insert breadboard diagram -->
+TODO: Insert breadboard diagram 
+-->
 
 ---
 
@@ -732,6 +731,7 @@ LEDs convert energy into:
 
 ---
 
+<!-- TODO: move before physical circuit lab -->
 # Safety
 
 ## Always:
@@ -785,18 +785,17 @@ Good engineers:
 
 -->
 
+<!-- TODO: add slide on buttons / switches -->
+
 ---
 
-<!--
-
-TODO: extra steps
+# Reach Goals
 
 - change the order of components
 - change resistance / potentiometer
 - add a button and/or switch
 
--->
-
+<!-- 
 ---
 
 # Next Time
@@ -805,4 +804,5 @@ Next steps:
 - capacitors
 - series vs parallel
 - sensors
-- transistors
+- transistors 
+-->
