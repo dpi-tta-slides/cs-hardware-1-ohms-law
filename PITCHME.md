@@ -2,7 +2,6 @@
 marp: true
 theme: default
 paginate: true
-size: 16:9
 ---
 
 # Day 1
@@ -15,10 +14,26 @@ size: 16:9
 By the end of today you will:
 
 - Build your first circuit
-- Control LED brightness
+- Control LED (light emitting diode) brightness
 - Use a multimeter
 - Learn voltage, current, and resistance
 - Learn how to troubleshoot circuits
+
+---
+
+# Live Demo
+
+## What are we building today?
+
+<!-- LIVE DEMO -->
+<!-- Show physical LED dimmer circuit -->
+
+<!-- Questions:
+- Why does the LED change brightness?
+- What controls the current?
+- Why doesn't the LED burn out? -->
+
+![bg contain right](assets/resistor-led-circuit.png)
 
 ---
 
@@ -44,8 +59,7 @@ Advantages:
 - easier troubleshooting
 - no damaged components
 
-We can focus on:
-# understanding the circuit first
+We can focus on *understanding the circuit first*
 
 ---
 
@@ -80,7 +94,91 @@ Professional engineers spend huge amounts of time debugging.
 
 If your circuit does not work immediately:
 
-# THAT IS NORMAL
+**THAT IS NORMAL**
+
+---
+
+# LAB BREAKOUT #1
+
+## Tinkercad Build
+
+Build a battery, resistor, LED circuit
+
+Goal: *make the LED light safely*
+
+---
+
+# Tinkercad Time
+
+## Build your first circuit virtually
+
+Components:
+- battery
+- resistor
+- LED
+- wires
+
+Goal: *make the LED light safely*
+
+---
+
+# Virtual Circuit
+
+Battery positive →
+Resistor →
+LED →
+Battery negative
+
+<!-- TODO: insert Tinkercad screenshot -->
+
+---
+
+# Before Starting Simulation
+
+## Double check:
+
+- LED polarity
+- resistor present
+- correct wiring
+- battery orientation
+
+---
+
+# Prediction
+
+Before starting the simulation:
+
+- What happens if the LED is reversed?
+- What happens if the resistor is removed?
+- Will the LED always light?
+
+---
+
+# Start the Simulation
+
+## What do you observe?
+
+- Is the LED on?
+- Is it bright?
+- What happens if wiring changes?
+
+---
+
+# Intentional Failure Test
+
+Try:
+- reversing the LED
+- removing the resistor
+
+Observe what changes.
+
+---
+
+# Debrief
+
+- Why did reversing the LED matter?
+- Why was the resistor necessary?
+- Why did some circuits fail?
 
 ---
 
@@ -94,7 +192,6 @@ Three important ideas:
 - Current (I)
 - Resistance (R)
 
-<!-- TODO: add short video explainer? -->
 ![bg contain right](assets/water-analogy.png)
 
 ---
@@ -173,8 +270,8 @@ Battery terminals:
 
 **Direction matters**
 
-- Electricity flows through a circuit in a direction.
-- Some components only work when electricity flows the correct way.
+- Electricity flows through a circuit in a direction
+- Some components only work when electricity flows the correct way
 
 This is called *polarity*
 
@@ -213,62 +310,6 @@ This protects the LED from too much current.
 
 ---
 
-# Tinkercad Time
-
-## Build your first circuit virtually
-
-Components:
-- battery
-- resistor
-- LED
-- wires
-
-Goal: *make the LED light safely*
-
----
-
-# Virtual Circuit
-
-Battery positive →
-Resistor →
-LED →
-Battery negative
-
-<!-- TODO: insert Tinkercad screenshot -->
-
----
-
-# Before Starting Simulation
-
-## Double check:
-
-- LED polarity
-- resistor present
-- correct wiring
-- battery orientation
-
----
-
-# Start the Simulation
-
-## What do you observe?
-
-- Is the LED on?
-- Is it bright?
-- What happens if wiring changes?
-
----
-
-# Intentional Failure Test
-
-Try:
-- reversing the LED
-- removing the resistor
-
-Observe what changes.
-
----
-
 # Debugging Is Engineering
 
 There are:
@@ -276,6 +317,22 @@ There are:
 - many ways to wire it incorrectly
 
 Debugging is part of electronics.
+
+---
+
+# LAB BREAKOUT #2
+
+## Physical Breadboard Build
+
+Recreate the same circuit physically.
+
+Goal:
+- LED lights
+- correct polarity
+- clean wiring
+
+Time:
+15 minutes
 
 ---
 
@@ -330,6 +387,23 @@ Battery negative
 
 ---
 
+# Instructor Demo
+
+## Common failure modes
+
+<!-- LIVE DEMO -->
+
+Try:
+- reversing the LED
+- loose wire
+- missing resistor
+- wrong breadboard row
+
+Ask:
+# Why did it fail?
+
+---
+
 # Success!
 
 If the LED lights:
@@ -354,14 +428,18 @@ If it does NOT work:
 
 What are your first impressions?
 
-<!-- Tinkercad:
+<!--
+
+Tinkercad:
 - easier wiring
 - easier visibility
 
 Real hardware:
 - loose wires
 - bad connections
-- physical constraints -->
+- physical constraints
+
+-->
 
 ---
 
@@ -377,6 +455,21 @@ A multimeter measures:
 
 ---
 
+# Instructor Demo
+
+## Measuring voltage
+
+<!-- LIVE DEMO -->
+
+Measure:
+- battery voltage
+- LED voltage
+
+Show:
+- probes placed in parallel
+
+---
+
 # Measuring Voltage
 
 ## Voltage is measured in parallel
@@ -384,6 +477,24 @@ A multimeter measures:
 Place probes across the component.
 
 <!-- TODO: Insert diagram -->
+
+---
+
+# LAB BREAKOUT #3
+
+## Multimeter Measurements
+
+Measure:
+- battery voltage
+- current
+- resistor value
+- continuity
+
+Optional:
+- LED current
+
+Time:
+10–15 minutes
 
 ---
 
@@ -399,9 +510,7 @@ Now measure it.
 
 # Measuring Resistance
 
-## Important Rule
-
-# POWER OFF FIRST
+## Important Rule: **POWER OFF FIRST**
 
 Resistance is measured on unpowered circuits.
 
@@ -409,12 +518,8 @@ Resistance is measured on unpowered circuits.
 
 # Measure a Resistor
 
-Use the multimeter to measure:
-- 220 Ω
-- 500 Ω
-- 1 kΩ
-
-Compare measured values to color bands.
+- Use the multimeter to measure different resistors
+- Compare measured values to color bands.
 
 ---
 
@@ -429,8 +534,11 @@ The multimeter beeps when connected.
 
 # Continuity Demo
 
+<!-- LIVE DEMO -->
+
 Test:
 - jumper wires
+- buttons
 - switches
 - breadboard rows
 
@@ -488,6 +596,30 @@ Leave the other outside pin disconnected.
 
 ---
 
+# Prediction
+
+Before building:
+
+- What happens as resistance increases?
+- Will brightness increase or decrease?
+- Will the change feel linear?
+
+---
+
+# LAB BREAKOUT #4
+
+## LED Dimmer
+
+Add the potentiometer.
+
+Goal:
+# control LED brightness
+
+Time:
+15–20 minutes
+
+---
+
 # LED Dimmer Circuit
 
 Battery positive →
@@ -495,15 +627,6 @@ Fixed resistor →
 Potentiometer →
 LED →
 Battery negative
-
----
-
-# Prediction
-
-As resistance increases:
-
-- Does current increase or decrease?
-- Does brightness increase or decrease?
 
 ---
 
@@ -651,28 +774,35 @@ Good engineers:
 
 ---
 
-# Exit Questions
+# Key Takeaways
+
+<!--
 
 - Why is a resistor needed?
 - What happens if resistance increases?
 - What does voltage measure?
 - Why do LEDs have polarity?
 
+-->
+
+---
+
+<!--
+
+TODO: extra steps
+
+- change the order of components
+- change resistance / potentiometer
+- add a button and/or switch
+
+-->
+
 ---
 
 # Next Time
 
 Next steps:
-<!-- add buttons/switches to day 1? -->
-- buttons + switches
 - capacitors
-<!-- mention this wrt measuring voltage/current? -->
 - series vs parallel
 - sensors
 - transistors
-- microcontrollers
-
-
-<!-- TODO: start with building circuit in tinkercad before explaining anything -->
-<!-- TODO: add explicit breaks for lab time -->
-<!-- TODO: add button/switch as next step -->
