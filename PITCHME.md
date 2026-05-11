@@ -6,9 +6,7 @@ size: 16:9
 ---
 
 # Day 1
-# Introduction to Electricity & Electronics
-
-## Build • Measure • Experiment • Debug
+## Introduction to Electricity & Electronics
 
 ---
 
@@ -96,6 +94,9 @@ Three important ideas:
 - Current (I)
 - Resistance (R)
 
+<!-- TODO: add short video explainer? -->
+![bg contain right](assets/water-analogy.png)
+
 ---
 
 # Voltage
@@ -139,6 +140,8 @@ Lower resistance:
 Measured in:
 # Ohms (Ω)
 
+![bg contain right](assets/hose-analogy.png)
+
 ---
 
 # Water Analogy
@@ -148,6 +151,8 @@ Measured in:
 | Voltage | Pressure |
 | Current | Flow |
 | Resistance | Narrow pipe |
+
+![bg contain right](assets/water-analogy.png)
 
 ---
 
@@ -160,16 +165,18 @@ Battery terminals:
 - Positive (+)
 - Negative (-)
 
+![bg contain right](assets/battery-multimeter.png)
+
 ---
 
 # Polarity
 
-## Direction matters
+**Direction matters**
 
-Some components must be connected correctly.
+- Electricity flows through a circuit in a direction.
+- Some components only work when electricity flows the correct way.
 
-This is called:
-# polarity
+This is called *polarity*
 
 ---
 
@@ -182,6 +189,8 @@ LEDs only work in one direction.
 
 - Long leg = positive (+) anode
 - Short leg = negative (-) cathode
+
+![bg contain right](assets/led-polarity.webp)
 
 ---
 
@@ -200,7 +209,7 @@ An LED connected directly to a battery can:
 
 We use a resistor to safely limit current.
 
-This protects the LED.
+This protects the LED from too much current.
 
 ---
 
@@ -214,8 +223,7 @@ Components:
 - LED
 - wires
 
-Goal:
-# make the LED light safely
+Goal: *make the LED light safely*
 
 ---
 
@@ -344,16 +352,16 @@ If it does NOT work:
 
 # Compare Virtual vs Physical
 
-## What changed?
+What are your first impressions?
 
-Tinkercad:
+<!-- Tinkercad:
 - easier wiring
 - easier visibility
 
 Real hardware:
 - loose wires
 - bad connections
-- physical constraints
+- physical constraints -->
 
 ---
 
@@ -663,3 +671,8 @@ Next steps:
 - sensors
 - transistors
 - microcontrollers
+
+
+<!-- TODO: start with building circuit in tinkercad before explaining anything -->
+<!-- TODO: add explicit breaks for lab time -->
+<!-- TODO: add button/switch as next step -->
