@@ -5,6 +5,7 @@ paginate: true
 ---
 
 # Day 1
+
 ## CS Hardware - Ohm's Law
 
 ---
@@ -24,12 +25,15 @@ By the end of today you will:
 # Today's Workflow
 
 ## Step 1
+
 Build a circuit virtually in Tinkercad
 
 ## Step 2
+
 Build the same circuit physically on a breadboard
 
 ## Step 3
+
 Measure and analyze the circuit
 
 ---
@@ -55,17 +59,19 @@ Measure and analyze the circuit
 # Why Start with Tinkercad?
 
 Advantages:
+
 - easier wiring + troubleshooting
 - instant feedback
 - safer experimentation
 - no damaged components
 
 Disadvantages:
+
 - Simulations are sometimes inaccurate
 
 <!-- We can focus on *understanding the circuit first* -->
 
---- 
+---
 
 # Electronics Is About Control
 
@@ -82,6 +88,7 @@ We use electronics to control:
 # Expect mistakes
 
 Your circuit may:
+
 - not work
 - work partially
 - behave strangely
@@ -97,12 +104,17 @@ If your circuit does not work immediately **THAT IS NORMAL**
 ## Tinkercad Build
 
 Components:
+
 - battery
 - resistor
 - LED
 - wires
 
 Goal: *make the LED light safely*
+
+![bg contain right](assets/resistor-led-circuit.png)
+
+<!-- TODO: setup tinkercad classroom -->
 
 <!-- ---
 
