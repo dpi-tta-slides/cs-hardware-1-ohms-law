@@ -15,10 +15,12 @@ paginate: true
 By the end of today you will:
 
 - Build your first circuit
-- Control LED (light emitting diode) brightness
-- Use a multimeter
-- Learn voltage, current, and resistance
+- Control LED (light emitting diode) brightness using a resistor
+- Use a multimeter to measure voltage, current, resistance, and continuity
+- Learn Ohm's Law
 - Learn how to troubleshoot circuits
+
+![bg contain right](assets/led-circuit-breadboard.jpg)
 
 ---
 
@@ -189,7 +191,7 @@ Three important ideas:
 - Current (I)
 - Resistance (R)
 
-![bg contain right](assets/water-analogy.png)
+<!-- ![bg contain right](assets/water-analogy.png) -->
 
 ---
 
@@ -312,6 +314,59 @@ Debugging is part of electronics. -->
 
 ---
 
+# Battery Safety
+
+Large batteries can produce a dangerous levels of current.
+
+Do NOT short:
+- lithium batteries
+- car batteries
+
+<!-- TODO: video showing what happens -->
+
+---
+
+# Safety
+
+- Disconnect power before rewiring
+<!-- TODO: explain a short circuit (too much current) -->
+- Avoid short circuits
+- Wear safety glasses
+- Check polarity
+
+
+
+<!-- ---
+
+# Engineering Mindset
+
+Good engineers:
+- test
+- predict
+- measure
+- debug
+- iterate 
+
+-->
+
+---
+
+
+# Troubleshooting
+
+If it does NOT work:
+
+- check polarity
+- check wiring
+- check loose connections
+- swap components
+- test battery
+
+(sometimes you just need to take a break)
+
+
+---
+
 # LAB BREAKOUT #2
 
 ## Physical Breadboard Build
@@ -323,8 +378,6 @@ Goal:
 - correct polarity
 - clean wiring
 
-Time:
-15 minutes
 
 <!-- ---
 
@@ -372,32 +425,7 @@ Battery negative -->
 
 ---
 
-# Before Powering On
 
-## Double check:
-
-- LED polarity
-- resistor present
-- loose wires
-- battery orientation
-
----
-
-# Instructor Demo
-
-## Troubleshooting
-
-If it does NOT work:
-
-- check polarity
-- check wiring
-- check loose connections
-- swap components
-- test battery
-
-(sometimes you just need to take a break)
-
----
 
 # Compare Virtual vs Physical
 
@@ -679,41 +707,6 @@ I = 0.0136 A = 13.6 mA
 
 ---
 
-<!-- TODO: move before physical circuit lab -->
-# Safety
-
-## Always:
-
-- Disconnect power before rewiring
-<!-- TODO: explain a short circuit (too much current) -->
-- Avoid short circuits
-- Wear safety glasses
-- Check polarity
-
----
-
-# Battery Safety
-
-Large batteries can produce a dangerous levels of current.
-
-Do NOT short:
-- lithium batteries
-- car batteries
-
-<!-- TODO: video showing what happens -->
-
----
-
-# Engineering Mindset
-
-Good engineers:
-- test
-- predict
-- measure
-- debug
-- iterate
-
----
 
 # Key Takeaways
 
