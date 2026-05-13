@@ -36,6 +36,10 @@ Build the same circuit physically on a breadboard
 
 Measure and analyze the circuit
 
+<!-- TODO: step 4 -->
+
+
+
 ---
 
 # Live Demo
@@ -56,6 +60,35 @@ Measure and analyze the circuit
 
 ---
 
+<!-- TODO: introduce Ohm's Law here? -->
+
+---
+
+# What Happens Without a Resistor?
+
+- We use a resistor to safely limit current.
+- This protects the LED from too much current.
+
+An LED connected directly to a battery can:
+- draw too much current
+- overheat
+- burn out
+
+<!-- TODO: Ohm's Law here? -->
+
+<!-- ---
+
+# Debugging Is Engineering
+
+There are:
+- some ways to wire it correctly
+- many ways to wire it incorrectly
+
+Debugging is part of electronics. -->
+
+---
+
+<!-- 
 # Why Start with Tinkercad?
 
 Advantages:
@@ -67,7 +100,8 @@ Advantages:
 
 Disadvantages:
 
-- Simulations are sometimes inaccurate
+- Simulations are sometimes inaccurate 
+-->
 
 <!-- We can focus on *understanding the circuit first* -->
 
@@ -288,29 +322,7 @@ Diodes only allow current in one direction.
 
 ---
 
-# What Happens Without a Resistor?
 
-- We use a resistor to safely limit current.
-- This protects the LED from too much current.
-
-An LED connected directly to a battery can:
-- draw too much current
-- overheat
-- burn out
-
-<!-- TODO: Ohm's Law here? -->
-
-<!-- ---
-
-# Debugging Is Engineering
-
-There are:
-- some ways to wire it correctly
-- many ways to wire it incorrectly
-
-Debugging is part of electronics. -->
-
----
 
 # LAB BREAKOUT #2
 
