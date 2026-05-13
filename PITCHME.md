@@ -62,11 +62,7 @@ Questions:
 - We use a resistor to safely limit current.
 - This protects the LED from too much current.
 
-An LED connected directly to a battery can:
-
-- draw too much current
-- overheat
-- burn out
+![bg contain right](assets/too-much-current.png)
 
 ---
 
@@ -251,7 +247,7 @@ If it does NOT work:
 
 ---
 
-# Compare Tinkercad vs Physical
+# Tinkercad vs Physical
 
 What are your first impressions?
 
