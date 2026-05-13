@@ -87,9 +87,9 @@ More resistance -> less current
 
 # Short Circuit
 
-- A short circuit happens when too much current flows due to too little resistance
-- An open circuit is the opposite (too much resitance)
-- Large batteries can produce a dangerous levels of current and possibly risk starting a fire
+- A **short circuit** happens when too much current flows due to too little resistance
+- An **open circuit** is the opposite (too much resitance)
+- Large batteries can produce dangerous levels of current and possibly risk starting a fire
 - Do NOT short large batteries
 
 [Video: ElectroBOOM](https://www.youtube.com/watch?v=i04y5n2oTsw)
@@ -284,7 +284,6 @@ A multimeter measures:
 ![bg contain right](assets/multimeter-tinkercad.png)
 ![bg contain right](assets/multimeter.webp)
 
-
 ---
 
 # Demo: Multimeter
@@ -345,7 +344,7 @@ Assume:
 
 Remaining voltage: `9V − 2.2V = 6.8V`
 
-Using Ohm's Law:
+Using Ohm's Law we can calculate the current:
 
 ```
 I = V / R
