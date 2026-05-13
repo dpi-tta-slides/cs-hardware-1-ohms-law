@@ -233,7 +233,8 @@ Diodes only allow current in one direction.
 
 # Demo: Physical Breadboard
 
-<!-- TODO: image -->
+![bg contain right](assets/led-circuit-breadboard.jpg)
+
 ---
 
 # Safety
